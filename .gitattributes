@@ -1,0 +1,30 @@
+# Force consistent line endings
+* text=auto
+
+# Always use LF for code and config files
+*.py     text eol=lf
+*.toml   text eol=lf
+*.md     text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+*.env    text eol=lf
+*.sh     text eol=lf
+*.dockerfile text eol=lf
+Dockerfile text eol=lf
+
+# Treat lock files as text, normalize to LF
+uv.lock  text eol=lf
+
+# Binary assets (images, fonts, compiled)
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.pdf    binary
+
+# Ignore test snapshot artifacts (optional)
+*.snap   binary
+
+# Mark GitHub Actions logs as text
+*.log    text eol=lf

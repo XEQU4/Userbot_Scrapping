@@ -1,0 +1,1 @@
+<session_name>/<api_id>/<api_hash>/<password>/<phone_number>  # If account doesn't have a password, you can just . . .<api_hash>//<phone_number>

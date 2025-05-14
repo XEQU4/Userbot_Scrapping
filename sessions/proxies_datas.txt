@@ -1,0 +1,1 @@
+<proxy_type>:<host>:<port>:<username>:<password>  # proxy_type: socks5, socks4, http

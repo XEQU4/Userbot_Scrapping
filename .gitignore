@@ -1,0 +1,42 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Ignore uv cache and lock files (optional)
+.uv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor/IDE settings
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore environment/config files (optional, if you store secrets locally)
+.env
+*.env
+
+# Ignore compiled or temporary files
+build/
+dist/
+*.egg-info/
+
+# Ignore Git-related files (should NOT ignore .gitignore itself!)
+.git/
+
+# Ignore tests outputs (optional)
+.coverage
+htmlcov/
+pytest_cache/
+
+# Ignore sessions datas
+sessions/sessions/
