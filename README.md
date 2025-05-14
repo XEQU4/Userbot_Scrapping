@@ -75,8 +75,8 @@ DSN="postgres://user:password@localhost:5432/database"
 ### 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/XEQU4/SpammerBot.git
-   cd SpammerBot
+   git clone https://github.com/XEQU4/Userbot_Scrapping.git
+   cd Userbot_Scrapping
 ```
 
 ### 2. Install dependencies:
