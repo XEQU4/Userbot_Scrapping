@@ -94,7 +94,7 @@ DSN="postgres://user:password@localhost:5432/database"
    # Then edit your credentials inside
 ```
 
-## 4. Prepare session and proxy files:
+### 4. Prepare session and proxy files:
 
 Make sure to correctly fill in the session and proxy data inside:
 ```
